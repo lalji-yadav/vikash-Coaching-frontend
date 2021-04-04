@@ -1,0 +1,12 @@
+.header {
+    color: black;
+    font-size: 2vw;
+    padding: 25px 10px 25px 10px;
+    background-color: rgb(150, 153, 150);
+}
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+.nav-link {
+    color: white;
+  }
