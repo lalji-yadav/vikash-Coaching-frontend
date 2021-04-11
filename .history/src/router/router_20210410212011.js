@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
     Switch,
-    Route
+    Route,
+    Link
   } from "react-router-dom";
   import Home from '../home/home'
   import Admission from "../component/admission/admission"
@@ -9,7 +10,6 @@ import {
   import Result from "../component/results/result"
   import Faculity from "../component/faculity/faculity"
 import Gallery from '../component/gallery/gallery';
-import Contacts from '../component/contacts/contact'
 
 class router extends Component {
     render() {
@@ -23,8 +23,6 @@ class router extends Component {
                     <Route exact path="/results" component={Result} />
                     <Route exact path="/faculity" component={Faculity} /> 
                     <Route exact path="/gallery" component={Gallery} />
-                    <Route exact path="/contact" component={Contacts} />
-
                     </Switch>
                
             </div>

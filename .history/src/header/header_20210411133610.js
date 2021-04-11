@@ -23,7 +23,7 @@ class header extends Component {
                         <Nav.Link className="text-light pr-5" as={Link} to="/results">Results</Nav.Link>
                         <Nav.Link className="text-light pr-5" as={Link} to="/faculity">Faculity</Nav.Link>
                         <Nav.Link className="text-light pr-5" as={Link} to="/gallery">Gallery</Nav.Link>
-                        <Nav.Link className="text-light pr-5" as={Link} to="/contact">Contacts</Nav.Link>
+                        <Nav.Link className="text-light pr-5" as={Link} to="/service">Contacts</Nav.Link>
 
                     </Nav>
                     </Navbar.Collapse>

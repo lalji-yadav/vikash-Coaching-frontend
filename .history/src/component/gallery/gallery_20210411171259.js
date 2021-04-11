@@ -8,7 +8,7 @@ class gallery extends Component {
       <div>
         <div className="col-sm-12 mt-2 p-0">
           <img
-            style={{ width: "100%", height: "50vh" }}
+            style={{ width: "100%", height: "10%" }}
             src={
               process.env.PUBLIC_URL + "/image/gallery/Admin/0 (22) - Copy.jpg"
             }
@@ -52,9 +52,7 @@ class gallery extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={
-                        process.env.PUBLIC_URL + "/image/gallery/Admin/0 (22) - Copy.jpg"
-                      }
+                    src="holder.js/800x400?text=Second slide&bg=282c34"
                     alt="Second slide"
                   />
 
@@ -68,9 +66,7 @@ class gallery extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={
-                        process.env.PUBLIC_URL + "/image/gallery/Admin/0 (22) - Copy.jpg"
-                      }
+                    src="holder.js/800x400?text=Third slide&bg=20232a"
                     alt="Third slide"
                   />
 

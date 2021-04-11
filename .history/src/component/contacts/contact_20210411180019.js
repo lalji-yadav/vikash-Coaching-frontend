@@ -11,7 +11,7 @@ class contact extends Component {
                 <Card className="p-5">
                     <h5> Vikash Kumar Singh </h5>
                     <h6> B.sc, M.SC </h6>
-                    <h6> Contsct No:- 1234567890 </h6>
+                    <p> Contsct No:- 1234567890 </p>
                 </Card>
 
             </div>

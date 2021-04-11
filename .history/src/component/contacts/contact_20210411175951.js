@@ -9,9 +9,9 @@ class contact extends Component {
             <div className="col-sm-5 p-3">
 
                 <Card className="p-5">
-                    <h5> Vikash Kumar Singh </h5>
-                    <h6> B.sc, M.SC </h6>
-                    <h6> Contsct No:- 1234567890 </h6>
+                    <p> Vikash Kumar Singh </p>
+                    <p> B.sc, M.SC </p>
+                    <p> Contsct No:- 1234567890 </p>
                 </Card>
 
             </div>

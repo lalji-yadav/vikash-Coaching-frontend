@@ -8,7 +8,7 @@ class gallery extends Component {
       <div>
         <div className="col-sm-12 mt-2 p-0">
           <img
-            style={{ width: "100%", height: "50vh" }}
+            style={{ width: "100%", height: "10%" }}
             src={
               process.env.PUBLIC_URL + "/image/gallery/Admin/0 (22) - Copy.jpg"
             }
@@ -25,14 +25,14 @@ class gallery extends Component {
           }}
         >
           <Tabs
-            defaultActiveKey="adminGroup"
+            defaultActiveKey="Home"
             id="uncontrolled-tab-example"
             className="bg-light"
           >
 
-            {/* admin carosal */}
+            {/* first carosal */}
 
-            <Tab eventKey="adminGroup" title="Admin Group">
+            <Tab eventKey="Home" title="Admin Group">
               <Carousel fade>
                 <Carousel.Item>
                   <img
@@ -52,9 +52,7 @@ class gallery extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={
-                        process.env.PUBLIC_URL + "/image/gallery/Admin/0 (22) - Copy.jpg"
-                      }
+                    src="holder.js/800x400?text=Second slide&bg=282c34"
                     alt="Second slide"
                   />
 
@@ -68,9 +66,7 @@ class gallery extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={
-                        process.env.PUBLIC_URL + "/image/gallery/Admin/0 (22) - Copy.jpg"
-                      }
+                    src="holder.js/800x400?text=Third slide&bg=20232a"
                     alt="Third slide"
                   />
 
@@ -85,27 +81,19 @@ class gallery extends Component {
               </Carousel>
             </Tab>
 
-            {/* admin carosal */}
-
-            <Tab eventKey="students" title="Students">
+            <Tab eventKey="profile" title="Students">
               <h3>profile </h3>
             </Tab>
 
-            {/* admin carosal */}
-
-            <Tab eventKey="gymGroup" title="Gym Group">
+            <Tab eventKey="contact" title="Gym Group">
               <h3>vghtrh </h3>
             </Tab>
 
-            {/* admin carosal */}
-
-            <Tab eventKey="topperStudents" title="Topper Students">
+            <Tab eventKey="contact" title="Topper Students">
               <h3>vghtrh </h3>
             </Tab>
-            
-             {/* admin carosal */}
 
-            <Tab eventKey="gymWinners" title="Gym Winners">
+            <Tab eventKey="contact" title="Gym Winners">
               <h3>vghtrh </h3>
             </Tab>
 

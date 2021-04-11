@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-import {Navbar, Nav } from 'react-bootstrap';
+import   "./headers.css"
+import {Navbar, Nav, NavDropdown,Button,Dropdown} from 'react-bootstrap';
 import { Card } from '@material-ui/core';
-import { Link } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 import Routers from "../router/router"
   
 class header extends Component {
@@ -13,7 +19,7 @@ class header extends Component {
                     <h6 style={{color:"#3f51b5"}}>Janghai Jaunpur U.P</h6>
                 </Card>
 
-                <Navbar style={{backgroundColor:"#3f51b5"}} variant="light" expand="lg">
+                <Navbar  variant="light" expand="lg">
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="text-light">
@@ -23,7 +29,7 @@ class header extends Component {
                         <Nav.Link className="text-light pr-5" as={Link} to="/results">Results</Nav.Link>
                         <Nav.Link className="text-light pr-5" as={Link} to="/faculity">Faculity</Nav.Link>
                         <Nav.Link className="text-light pr-5" as={Link} to="/gallery">Gallery</Nav.Link>
-                        <Nav.Link className="text-light pr-5" as={Link} to="/contact">Contacts</Nav.Link>
+                        <Nav.Link className="text-light pr-5" as={Link} to="/service">Contacts</Nav.Link>
 
                     </Nav>
                     </Navbar.Collapse>

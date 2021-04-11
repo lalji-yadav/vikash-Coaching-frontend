@@ -23,8 +23,6 @@ class router extends Component {
                     <Route exact path="/results" component={Result} />
                     <Route exact path="/faculity" component={Faculity} /> 
                     <Route exact path="/gallery" component={Gallery} />
-                    <Route exact path="/contact" component={Contacts} />
-
                     </Switch>
                
             </div>

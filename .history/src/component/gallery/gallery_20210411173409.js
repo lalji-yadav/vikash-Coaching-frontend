@@ -8,7 +8,7 @@ class gallery extends Component {
       <div>
         <div className="col-sm-12 mt-2 p-0">
           <img
-            style={{ width: "100%", height: "50vh" }}
+            style={{ width: "100%", height: "30vh" }}
             src={
               process.env.PUBLIC_URL + "/image/gallery/Admin/0 (22) - Copy.jpg"
             }
